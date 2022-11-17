@@ -1,0 +1,5 @@
+"0","paste(""hello"", ""good"", ""bye"", ""hi"", sep = ', ')"
+"1","[1]"
+"1"," ""hello, good, bye, hi"""
+"1","
+"

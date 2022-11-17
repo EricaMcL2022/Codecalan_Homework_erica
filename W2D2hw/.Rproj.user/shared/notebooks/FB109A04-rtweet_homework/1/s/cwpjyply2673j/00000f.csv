@@ -1,0 +1,3 @@
+"0","#Q9 Use the str_detect() function to find all tweets with text that mentions “Edinburgh”, and count how many such tweets there are."
+"0",""
+"0","code_clan_tweets %>% mutate(lowcase_tweets = str_to_lower(text)) %>% filter(str_detect(lowcase_tweets, ""edinburgh"")) %>% summarise(count = n())"

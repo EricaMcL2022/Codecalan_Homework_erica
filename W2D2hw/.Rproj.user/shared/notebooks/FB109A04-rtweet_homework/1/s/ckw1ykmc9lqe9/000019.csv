@@ -1,0 +1,6 @@
+"0",""
+"0","code_clan_tweets_text <- code_clan_tweets %>%"
+"0","  mutate(count_str_length = str_length(text)) %>%"
+"0","  select(count_str_length, display_text_width)"
+"0",""
+"0","code_clan_tweets_text"

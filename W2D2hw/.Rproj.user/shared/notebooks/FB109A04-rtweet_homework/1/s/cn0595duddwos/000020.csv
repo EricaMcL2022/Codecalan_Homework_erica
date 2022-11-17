@@ -1,0 +1,3 @@
+"0","#Q1 - Load the code_clan_tweets.csv data. Find the number of rows, columns, and list all the variable names."
+"0",""
+"0","read.csv(""code_clan_tweets.csv"")"

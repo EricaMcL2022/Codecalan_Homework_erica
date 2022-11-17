@@ -1,0 +1,11 @@
+"0","outer_function <- function(){"
+"0","  "
+"0"," inner_function <- function(){"
+"0"," }"
+"0"," "
+"0"," print(environment(inner_function))"
+"0","}"
+"0",""
+"0","outer_function()"
+"1","<environment: 0x0000025948999210>
+"

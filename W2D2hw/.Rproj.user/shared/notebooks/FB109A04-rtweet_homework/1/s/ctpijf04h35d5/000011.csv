@@ -1,0 +1,5 @@
+"0","#Q7 From your new joined data, create a new tibble codeclan_hashtags containing only tweet_id and hashtags, then convert hashtags into lowercase for analysis. Keep only those tweets with hashtags."
+"0",""
+"0","code_clan_hashtags <- code_clan_all %>% select(tweet_id, hashtags) %>% mutate(lowcase_hashtag = str_to_lower(hashtags)) %>% select(-hashtags) %>% drop_na(lowcase_hashtag)"
+"0",""
+"0","code_clan_hashtags"

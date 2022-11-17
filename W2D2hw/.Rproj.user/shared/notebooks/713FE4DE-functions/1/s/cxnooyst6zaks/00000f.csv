@@ -1,0 +1,7 @@
+"0","multiply_by_3_add_2 <- function(x){"
+"0","  "
+"0","  times_3 <- x*3"
+"0","  add_2 <- times_3 + 2"
+"0","  "
+"0","  return(list(times_3 = times_3, add_2 = add_2))"
+"0","}"

@@ -1,0 +1,3 @@
+"0","#Q5 Find the mean number of characters that a CodeClan tweet contains. You can either find a way to count the text in the text variable, or use the variable display_text_width which contains a count. Checking both would be a good idea if possible to see if they match (but it’s not essential)."
+"0","code_clan_tweets %>%"
+"0","  summarise(avg_tweet_length = mean(display_text_width))"

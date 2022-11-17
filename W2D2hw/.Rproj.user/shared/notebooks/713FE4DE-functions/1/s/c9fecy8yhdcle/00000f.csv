@@ -1,0 +1,3 @@
+"0","nchar(""hello"", TRUE)"
+"2","Error in nchar(""hello"", TRUE) : invalid 'type' argument
+"

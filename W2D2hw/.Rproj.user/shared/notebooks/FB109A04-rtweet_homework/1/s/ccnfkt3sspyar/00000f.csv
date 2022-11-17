@@ -1,0 +1,5 @@
+"0","#Q8 Some tweets have more than one hashtag, denoted by the c( symbols at the start of the string. Use the str_sub() and str_detect() functions and your codeclan_hashtags tibble from above to find all the cases in which the hashtag string begins with charactersc(."
+"0",""
+"0","hashtags_multiple <- code_clan_hashtags %>% mutate(first_letters = str_sub(lowcase_hashtag, 1, 2)) %>% filter(str_detect(first_letters, ""c\\(""))"
+"0",""
+"0","hashtags_multiple"

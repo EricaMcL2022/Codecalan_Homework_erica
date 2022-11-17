@@ -1,0 +1,6 @@
+"0","#Q4 Count the total number of likes (i.e. total of favorite_count), split by media type, and arrange them from most likes to least. Assume that any tweets without a listed media type are of type “text”."
+"0",""
+"0","code_clan_tweets %>% mutate(media_type = coalesce(media_type, ""text"")) %>%"
+"0","  group_by(media_type) %>%"
+"0","  summarise(favourite_count_total = sum(favorite_count)) %>%"
+"0","  arrange(desc(favourite_count_total))"
